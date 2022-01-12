@@ -1,0 +1,18 @@
+nav {
+    font-size: x-large;
+    padding-left: 25px; 
+    background-color: purple; 
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+a:hover {
+    background-color: red;
+}

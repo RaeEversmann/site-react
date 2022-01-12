@@ -1,20 +1,11 @@
 import './App.css';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav
-          style={{
-            borderBottom: "solid 1px",
-            paddingBottom: "1rem",
-          }}
-          >
-            <Link to="/about">About</Link>
-            <Link to="/">Home</Link>
-          </nav>
-      </header>
+      <Navbar />
       <Outlet />
     </div>
   );
